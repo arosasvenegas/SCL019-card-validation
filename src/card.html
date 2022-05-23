@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Valida tu Tarjeta</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header></header>
+    <main>
+        <button class="back"><a href="index.html">Volver</a></button>
+        <form class="containerCard">
+            <div>
+                <label for="numberCard" class="labelContainer">Numero de Tarjeta</label>
+                <br/>
+                <input type="text" class="inputContainer" id="cardNumber">
+            </div>
+            <div class="containerDate">
+                <label for="date" class="labelDate">Fecha de Caducidad</label>
+                <br/>
+                <select name="month" class="selectMonth">
+                    <option value="month1">1</option>
+                    <option value="month2">2</option>
+                    <option value="month3">3</option>
+                    <option value="month4">4</option>
+                    <option value="month5">5</option>
+                    <option value="month6">6</option>
+                    <option value="month7">7</option>
+                    <option value="month8">8</option>
+                    <option value="month9">9</option>
+                    <option value="month10">10</option>
+                    <option value="month11">11</option>
+                    <option value="month12">12</option>
+                </select>
+                
+                <select name="year" class="selectYear">
+                    <option value="year1">2022</option>
+                    <option value="year2">2023</option>
+                    <option value="year3">2024</option>
+                    <option value="year4">2025</option>
+                    <option value="year5">2026</option>
+                    <option value="year6">2027</option>
+                </select>
+            </div>
+            <div>
+                <label for="country" class="labelContainer">País</label>
+                <br/>
+                <input type="text" class="inputContainer" >
+            </div>
+            <div>
+                <label for="name" class="labelContainer">Nombre</label>
+                <br/>
+                <input type="text" class="inputContainer" >  
+            </div>
+            <div>
+                <label for="lastName" class="labelContainer">Apellido</label>
+                <br/>
+                <input type="text" class="inputContainer" >
+            </div>
+            <button class="btnPay" id="btnPay" onclick="validarFormulario()">Pagar</button>
+        </form>
+        
+
+    </main>
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
