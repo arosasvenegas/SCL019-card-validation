@@ -14,4 +14,4 @@ Se realizo un prototipo con ayuda de figma, se cambio algunas cosas de diseño, 
 
 Este fue el resultado final
 ![CapturaCardSims](https://user-images.githubusercontent.com/73150391/169911149-ee0444c4-cdaf-4555-9650-eb5d37442963.PNG)
-![CapturaCardpago](https://user-images.githubusercontent.com/73150391/169911164-a43084c8-361d-4667-ae6a-e780eb8f7ca9.PNG)
+![Capturapago](https://user-images.githubusercontent.com/73150391/169911459-252770f8-be76-4882-b778-2f1b01df7134.PNG)
