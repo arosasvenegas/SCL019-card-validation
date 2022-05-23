@@ -1,6 +1,6 @@
 # Tarjeta de crédito válida
 
-## Resumen del Poryecto
+## Resumen del Proyecto
 
 Utilizando el algoritmo de Luhn, se creo una web donde se puedan comprar juegos, en este caso de los Sims 4.
 El usuario podra elegir los juegos que desee comprar y luego finalizar la compra, después de validar su tarjeta.
